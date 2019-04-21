@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px){
+
+  #upgradeInfo {
+    width: 75%;
+    max-width: 75%;
+    min-width: 75%;
+  }
+
+  .upgradeInfoLine{
+    display: flex;
+  }
+}
+
+  .upgradeInfoLine {
+    margin-top: 10px;
+    color: white;
+    flex-direction: row;
+  }
+
+  .upgradeNameTitleContainer {
+    width: 15%;
+    height: 15%;
+    min-width: 15%;
+    max-width: 15%;
+    margin-right: 5px;
+    background-color: #21366e;
+    border: #21366e solid 2px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .infoTitleContainer {
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+    /* background-color: blue; */
+  }
+
+  .infoTitle {
+    background-color: #21366e;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: #21366e solid 2px;
+  }
+
+  .upgradeInfoText {
+    font-weight: bold;
+    font-size: 20px;
+    color: #21366e;
+    background-color: white;
+    border-radius: 10px;
+    /* width: 30%;
+    max-width: 30%; */
+    text-align: center;
+  
+    border: #21366e solid 2px;
+  }
+
+  .userName {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+
+
+  .descriptionTitle {
+    background-color: #21366e;
+    padding-top: 1px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+  }
+  
+  .descriptionLine {
+    margin-top: 10px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: white;
+    border: #21366e solid 3px;
+  }
+  
+  .descriptionBox {
+    font-size: 18px;
+    color: #21366e;
+    margin-left: 5px;
+    background-color: white;
+  }

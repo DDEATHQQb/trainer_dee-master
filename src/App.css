@@ -1,0 +1,97 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  background-color: #c7c9c7;
+  /* min-width: 1000px; */
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+}
+.Content {
+  /* padding top left bottom right */
+  padding: 60px 0 80px 0;
+}
+#testHeader {
+  font-size: 100px;
+}
+
+/* Footer Style */
+.FooterLink {
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  transition-duration: 0.3s;
+  transition-duration: 200ms;
+}
+.FooterLink:hover {
+  background-color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #006cb0;
+}
+
+#footerDplop {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  background-color: #283266;
+}
+
+/*toggle button styling*/
+
+.toggleButton {
+  background-color: #2dc84d;
+  color: white;
+  border-radius: 10px;
+  border: solid 3px white;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition-duration: 200ms;
+}
+
+.deactivatedButton {
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  border: solid 3px white;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition-duration: 200ms;
+}
+
+.toggleButton:hover {
+  background-color: #2dc84d;
+  color: white;
+  border-radius: 10px;
+  border: solid 3px #007041;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition-duration: 400ns;
+}
+.deactivatedButton:hover {
+  color: white;
+  border-radius: 10px;
+  border: solid 3px #007041;
+  background-color: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition-duration: 400ns;
+}
+
+.buttonGroup {
+  background-color: "red";
+}
+/*toggle button styling*/
+
+/*Modal*/
+.modalStyle {
+  min-width: 1000px;
+  height: 100%;
+}

@@ -1,0 +1,71 @@
+.buttonArea {
+  margin-top: 20px;
+  background-color: #21366e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.accountTitleContainer {
+  /* width: 25%; */
+}
+
+.accountTitle {
+  background-color: #21366e;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: #21366e solid 2px;
+}
+
+.accountNameContainer {
+  font-weight: bold;
+  font-size: 16px;
+  color: #21366e;
+  background-color: white;
+  border-radius: 10px;
+  width: 65%;
+  max-width: 65%;
+  padding-left: 20px;
+  text-align: center;
+  flex-direction: row;
+  border: #21366e solid 2px;
+}
+
+.trainerImage {
+  border: 3px solid black;
+  border-radius: 3px;
+  max-width: 160px;
+  min-width: 160px;
+  max-height: 160px;
+  min-height: 160px;
+  margin-top: 10px;
+}
+
+;
+@media screen and (min-width: 768px) {
+  .accountNameContainer {
+    display: flex;
+  }
+  #accountInfo {
+    width: 75%;
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .trainerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.buttonContainer {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
